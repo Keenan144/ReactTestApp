@@ -16,11 +16,13 @@ export default class App extends React.Component {
       <div>
         <Experiment ref={this.experimentRef} name="My Example">
           <Variant name="A">
+            <h3>Tell Keenan you saw Variant A please :) </h3>
             <Img
               src={['https://images.unsplash.com/photo-1553264646-7eb44743436f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1017&q=80', 'https://www.example.com/bar.jpg']}
             />
           </Variant>
           <Variant name="B">
+            <h3>Tell Keenan you saw Variant B please :) </h3>
             <Img
               src={['https://images.unsplash.com/photo-1553264701-d138db4fd5d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80', 'https://www.example.com/bar.jpg']}
             />
